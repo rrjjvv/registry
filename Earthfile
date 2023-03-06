@@ -1,4 +1,6 @@
-ARG TARGET_SHA=a1e30cca
+VERSION 0.7
+
+ARG --global TARGET_SHA=a1e30cca
 
 build:
     FROM golang:1.16-alpine
